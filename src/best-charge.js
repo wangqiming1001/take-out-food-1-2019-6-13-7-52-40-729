@@ -14,7 +14,7 @@ function countItems(selectedItems) {
       count: idAndCount[1].trim()
     });
   });
- 
+ console.log(items);
   return items;
 }
 
